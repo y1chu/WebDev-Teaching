@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Final Fantasy Page</title>
+    <link rel="stylesheet" href="ex1style.css">
+</head>
+<body>
+    <h1>Welcome to My Final Fantasy Page!</h1>
+    <p>This is my first attempt at creating a webpage dedicated to Final Fantasy. As a fan of the series, I'm excited to share my love for these amazing games!</p>
+
+    <a href="https://www.finalfantasy.com">Explore the World of Final Fantasy</a>
+
+    <!-- List of My Favorite Final Fantasy Games -->
+    <h2>My Favorite Final Fantasy Games:</h2>
+    <ul>
+        <li>Final Fantasy X</li>
+        <li>Final Fantasy VII</li>
+        <li>Final Fantasy IX</li>
+    </ul>
+
+    <!-- Image of a Final Fantasy Character -->
+    <h2>Meet Tidus from Final Fantasy X:</h2>
+    <img src="https://vignette.wikia.nocookie.net/finalfantasy/images/c/cb/FFX_HD_Tidus.jpg/revision/latest?cb=20160213183242" alt="Tidus from Final Fantasy X">
+
+    <!-- Table of Final Fantasy Heroes -->
+    <h2>Favorite Final Fantasy Heroes:</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Game</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Tidus</td>
+            <td>Final Fantasy X</td>
+            <td>Protagonist</td>
+        </tr>
+        <tr>
+            <td>Cloud Strife</td>
+            <td>Final Fantasy VII</td>
+            <td>Solider First Class</td>
+        </tr>
+        <tr>
+            <td>Vivi Ornitier</td>
+            <td>Final Fantasy IX</td>
+            <td>Black Mage</td>
+        </tr>
+    </table>
+
+    <!-- Final Fantasy Quiz Form -->
+    <h2>Test Your Final Fantasy Knowledge!</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="fav_ff_game">Favorite Final Fantasy Game:</label>
+        <input type="text" id="fav_ff_game" name="fav_ff_game" required><br>
+
+        <label for="best_hero">Best Final Fantasy Hero:</label>
+        <input type="text" id="best_hero" name="best_hero" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

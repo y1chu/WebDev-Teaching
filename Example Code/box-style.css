@@ -1,0 +1,67 @@
+/* Apply general styling to all elements on the page */
+* {
+    box-sizing: border-box; /* Include padding and border in an element's total width and height */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+
+img {
+    width: 32px; /* Adjust this value to get the size you want */
+    display: block; /* Removes any default space below the image */
+    margin-bottom: 20px; /* Add some spacing below the image */
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height instead of height */
+    padding: 50px; /* Body padding to clearly show the margin box */
+    box-sizing: border-box; /* Include padding and border in the body's total width and height */
+}
+
+/* Style the margin area */
+.margin {
+    background-color: #1E1E1E;
+    margin: 50px;
+    padding: 20px;
+}
+
+/* Style the border area */
+.border {
+    background-color: #2D2D2D;
+    border: 10px solid #777;
+    padding: 20px;
+}
+
+/* Style the padding area */
+.padding {
+    background-color: #3D3D3D;
+    padding: 20px;
+}
+
+/* Style the content area */
+.content {
+    background-color: #4D4D4D;
+    padding: 20px;
+}
+
+h2 {
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
