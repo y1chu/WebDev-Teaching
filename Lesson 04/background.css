@@ -1,0 +1,52 @@
+body {
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Apply general styling to all examples */
+div {
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Example 1: Solid Color Background */
+.background-example {
+    background-color: #21a4df;
+}
+
+/* Example 2: Gradient Background */
+.gradient-example {
+    background-image: linear-gradient(to right, #21a4df, #05668d);
+}
+
+/* Example 3: Background Image */
+.image-example {
+    background-image: url("ff16.jpg");
+    background-size: cover;
+}
+
+/* Example 4: Background Attachment and Position */
+.attachment-example {
+    background-image: url("bird.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

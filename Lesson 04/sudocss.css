@@ -1,0 +1,65 @@
+/* Apply general styling to all elements on the page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* :hover and :visited pseudo-classes */
+.link,
+.visited-link,
+.unvisited-link {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.link:hover,
+.link-visited:visited {
+    color: #ff3300;
+}
+
+/* :active pseudo-class */
+.btn {
+    padding: 10px 20px;
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:active {
+    background-color: #cc2600;
+}
+
+/* :focus pseudo-class */
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0066cc;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #ff3300;
+}
+
+/* :first-child pseudo-class */
+.paragraph-container p:first-child {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 5px;
+}
