@@ -1,0 +1,32 @@
+body {
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.border-example {
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* horizontal offset of 5 pixels, a vertical offset of 5 pixels,
+                                                    a blur radius of 10 pixels,
+                                                    and a semi-transparent black color for a subtle shadow */
+    background-color: rgba(0, 0, 0, 0.7);
+}

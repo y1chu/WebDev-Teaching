@@ -1,0 +1,48 @@
+body {
+    background-image: url("bird.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Papyrus", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-example {
+    margin: 20px auto;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.color-example {
+    color: #ff9900;
+}
+
+.font-family-example {
+    font-family: "Arial", sans-serif;
+}
+
+.font-size-example {
+    font-size: 24px;
+}
+
+.text-align-example {
+    text-align: right;
+}
+
+.line-height-example {
+    line-height: 3.5;
+}

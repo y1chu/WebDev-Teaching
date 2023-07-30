@@ -1,0 +1,48 @@
+body {
+    background-image: url("bird.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.transition-example {
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #4caf50;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+}
+
+.transition-example:hover {
+    width: 300px;
+}
+
+@keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animation-example {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+    animation: rotation 2s infinite linear;
+    border-radius: 50%;
+}
